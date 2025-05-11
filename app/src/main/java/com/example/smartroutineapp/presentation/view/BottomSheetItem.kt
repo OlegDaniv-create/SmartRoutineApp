@@ -1,6 +1,5 @@
 package com.example.smartroutineapp.presentation.view
 
-import android.graphics.fonts.FontStyle
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -18,6 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -66,7 +66,7 @@ fun BottomSheetItem(
             countItems?.let {
                 Text(
                     modifier = Modifier.padding(top = 4.dp),
-                    text = "$countItems items",
+                    text = pluralStringResource(R.plurals.number_of_items, countItems, countItems),
                     color = SubTextColor,
                     style = Typography.bodySmall.copy(fontSize = 12.sp)
                 )

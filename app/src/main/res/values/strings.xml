@@ -12,4 +12,8 @@
     <string name="bottom_sheet_item_daily_tasks">Daily tasks</string>
     <string name="bottom_sheet_title_my_lists">My Lists</string>
     <string name="in_progress">In progress</string>
+    <plurals name="number_of_items">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
 </resources>
