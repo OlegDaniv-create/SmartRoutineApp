@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">SmartRoutineApp</string>
+    <string name="bottom_nav_home">Home</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_all">Select All</string>
+    <string name="content_description_floating_action_button">Floating action button.</string>
+    <string name="add_to_list">ADD TO LIST</string>
+    <string name="task_screen_title">Wake-Up and Hydration</string>
+    <string name="bottom_sheet_item_add_to_new_list">Add to new list</string>
+    <string name="bottom_sheet_item_add_to_favorites">Add to favorites</string>
+    <string name="bottom_sheet_item_morning_tasks">Morning tasks</string>
+    <string name="bottom_sheet_item_daily_tasks">Daily tasks</string>
+    <string name="bottom_sheet_title_my_lists">My Lists</string>
+    <string name="in_progress">In progress</string>
 </resources>
